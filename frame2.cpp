@@ -1,3 +1,6 @@
+
+// ceci est une version incomplète du projet
+
 #include <iostream>
 #include <fstream>
 #include <vector>
