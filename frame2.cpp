@@ -224,7 +224,7 @@ void Deplacement(std::vector<particules>& particule,int nbrepart, const int WIDT
         collision_border(particule,nbrepart,WIDTH,HEIGHT);
         collision_of_particule(particule,nbrepart);
 
-        usleep(500000);
+        sleep(500000);
         system("CLS");
         for (int i = 0; i <= HEIGHT; ++i) {
             canvas[i] = new char[WIDTH];
