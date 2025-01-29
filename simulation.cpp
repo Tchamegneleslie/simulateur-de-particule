@@ -210,7 +210,7 @@ void Deplacement(std::vector<particules>& particule,int& nbrepart, const int WID
             }
         }
         s--;
-        std::cout << s;
+        std::cout <<"Nombre de mouvements: "<< s-1;
        
     }
     
